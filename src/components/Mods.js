@@ -22,10 +22,16 @@ function Mods() {
          
     `
     const TextBlock = styled.div`
-        line-height: 1.25em;
-        font-size: 13pt;
-        max-width: 500px;
-        min-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    line-height: 1.25em;
+    font-size: 13pt;
+    max-width: 750px;
+    min-width: 300px;
+    text-align: center;
+    margin: 0 auto;
 
     `
     const CarouselContainer = styled.div`
@@ -39,7 +45,8 @@ function Mods() {
         <FlexContainer>
             <FlexBox>
                 <TextBlock>
-                    <p>Sci-Fi Wasteland comes packed with loads of futuristic mods so you can fully immerse yourself! Mods are subject to change, so be sure to hop in our discord, or check out the server for the latest mod list.</p>
+                    <p>Sci-Fi Wasteland comes packed with loads of futuristic mods so you can fully immerse yourself! Mods are subject to change, so be sure to hop in our discord, or check out the server for the latest mod list.</p><br/>
+                    <p>Check out some shots of in game gear offerings below:</p>
                 </TextBlock>
 
             </FlexBox>

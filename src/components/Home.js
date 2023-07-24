@@ -16,10 +16,16 @@ function Home() {
          
     `
     const TextBlock = styled.div`
-        line-height: 1.25em;
-        font-size: 13pt;
-        max-width: 500px;
-        min-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    line-height: 1.25em;
+    font-size: 13pt;
+    max-width: 750px;
+    min-width: 300px;
+    text-align: center;
+    margin: 0 auto;
 
     `
     return (<>
