@@ -61,7 +61,7 @@ function Donate() {
 
         <FlexContainer>
             <FlexBox>
-                <PayLink to='https://www.paypal.com/paypalme/scifiwasteland' target='_blank'>
+                <PayLink to='https://www.paypal.com/paypalme/SciFiFinances' target='_blank'>
                     <DonoContainer>
                         
                             <DonoItems>
@@ -74,7 +74,7 @@ function Donate() {
                     </DonoContainer>
                 </PayLink>
 
-                <PayLink to='https://donatebot.io/checkout/693526731948294214' target='_blank'>
+                {/* <PayLink to='https://donatebot.io/checkout/693526731948294214' target='_blank'>
                     <DonoContainer>
                             <DonoItems>
                                 <p>Reoccuring Donation</p>
@@ -86,12 +86,12 @@ function Donate() {
                                 
                             </DonoItems>
                     </DonoContainer>
-                </PayLink>
+                </PayLink> */}
             </FlexBox>
         </FlexContainer>
 
         {/* https://donatebot.io/checkout/693526731948294214 */}
-        {/* https://www.paypal.com/paypalme/scifiwasteland */}
+        {/* https://www.paypal.com/paypalme/SciFiFinances */}
 
     </>)
 }
