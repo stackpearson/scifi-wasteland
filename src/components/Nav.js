@@ -86,6 +86,17 @@ function Navigation() {
               <ListItems className="nav-item">
                 <NavBarLink
                   exact
+                  to="/black-market"
+                  activeClassName="active"
+                  className="nav-links"
+                  onClick={handleClick}
+                >
+                  Black Market
+                </NavBarLink>
+              </ListItems>
+              <ListItems className="nav-item">
+                <NavBarLink
+                  exact
                   to="/mods"
                   activeClassName="active"
                   className="nav-links"
