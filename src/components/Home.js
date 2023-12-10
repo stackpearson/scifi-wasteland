@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import tempPhoto from '../assets/sifi_temp.jpg'
+import tempPhoto from '../assets/sifi_temp.jpg';
+import kermit from '../assets/kermit.jpg';
 
 function Home() {
     const FlexContainer = styled.div`
@@ -14,6 +15,18 @@ function Home() {
         padding: 10px;
 
          
+    `
+    const KermitBox = styled.div`
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: .2em;
+    `
+    const Img = styled.img`
+        display: block;
+        margin: 0 auto;
+        max-width: 550px;
     `
     const TextBlock = styled.div`
     padding: 10px;
@@ -41,9 +54,23 @@ function Home() {
 
             </FlexBox>
             <FlexBox>
-                <img src={tempPhoto} />
+                <Img src={tempPhoto} />
+                
             </FlexBox>
 
+        </FlexContainer>
+        <FlexContainer>
+            <FlexBox>
+                <KermitBox>
+                    <h2>Rest In Peace Kermit</h2>
+                    <Img src={kermit} />
+                </KermitBox>
+            </FlexBox>
+            <FlexBox>
+                <TextBlock>
+                    <p>If you see this memorial at our Sci-Fi trader in the north, please take a moment to pay respects to our dear friend Kermit, who was taken from us far too soon in this life. Kermit was one of our founding members, this server wouldn't be where it is today without him. We love you buddy, things aren't the same without you. Keep the rubber side down up there until we meet again.</p>
+                </TextBlock>
+            </FlexBox>
         </FlexContainer>
 
     </>)
