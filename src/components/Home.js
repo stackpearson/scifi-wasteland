@@ -27,6 +27,7 @@ function Home() {
         display: block;
         margin: 0 auto;
         max-width: 550px;
+        border-radius: 1em;
     `
     const TextBlock = styled.div`
     padding: 10px;
