@@ -12,9 +12,7 @@ function Home() {
     `
     const FlexBox = styled.div`
         display: flex;
-        padding: 10px;
-
-         
+        padding: 10px;  
     `
     const KermitBox = styled.div`
         display: flex;
@@ -30,19 +28,45 @@ function Home() {
         border-radius: 1em;
     `
     const TextBlock = styled.div`
-    padding: 10px;
-    border-radius: 10px;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-    line-height: 1.25em;
-    font-size: 13pt;
-    max-width: 750px;
-    min-width: 300px;
-    text-align: center;
-    margin: 0 auto;
+        padding: 10px;
+        border-radius: 10px;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        line-height: 1.25em;
+        font-size: 13pt;
+        max-width: 750px;
+        min-width: 300px;
+        text-align: center;
+        margin: 0 auto;
+    `
 
+    const VideoContainer = styled.div`
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 0;
+    `
+
+    const VideoFrame = styled.iframe`
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
     `
     return (<>
+
+<VideoContainer>
+                <VideoFrame
+                    src="https://www.youtube.com/embed/Wf-GGLiWzew"
+                    title="TRUE TALES of the WASTELAND - Sci Fi Wasteland Episode One"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </VideoFrame>
+            </VideoContainer>
+
+
         <FlexContainer>
             <FlexBox>
                 <TextBlock>
