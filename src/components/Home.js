@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import tempPhoto from '../assets/sifi_temp.jpg';
+import adminTeam from '../assets/adminTeam.png';
 import kermit from '../assets/kermit.jpg';
 
 function Home() {
@@ -77,7 +77,7 @@ function Home() {
 
             </FlexBox>
             <FlexBox>
-                <Img src={tempPhoto} />    
+                <Img src={adminTeam} />    
             </FlexBox>
 
         </FlexContainer>

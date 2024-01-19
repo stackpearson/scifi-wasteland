@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import styled from 'styled-components';
 import 'font-awesome/css/font-awesome.min.css';
 import apache from '../assets/apache.jpg';
-import armoredBus from '../assets/armored_bus.jpg';
+import secure from '../assets/secure.png';
 import meruSniper from '../assets/meru_sniper.jpg';
 import roamer from '../assets/roamer.jpg';
 import { Carousel } from 'react-responsive-carousel';
@@ -83,8 +83,8 @@ function Mods() {
                     <br/>
                 </div>
                 <div>
-                    <img src={armoredBus} />
-                    <p>Various armed vehicles</p>
+                    <img src={secure} />
+                    <p>Creature Mobs</p>
                     <br/>
                 </div>
                 <div>
