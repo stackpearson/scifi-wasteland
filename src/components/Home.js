@@ -55,17 +55,15 @@ function Home() {
         position: absolute;
     `
     return (<>
-
-<VideoContainer>
-                <VideoFrame
-                    src="https://www.youtube.com/embed/Wf-GGLiWzew"
-                    title="TRUE TALES of the WASTELAND - Sci Fi Wasteland Episode One"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
-                </VideoFrame>
-            </VideoContainer>
-
+        <VideoContainer>
+            <VideoFrame
+                src="https://www.youtube.com/embed/vmSt3P93xws"
+                title="True Tales of the Wasteland: Episode Two (A day to Die)"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </VideoFrame>
+        </VideoContainer>
 
         <FlexContainer>
             <FlexBox>
@@ -79,8 +77,7 @@ function Home() {
 
             </FlexBox>
             <FlexBox>
-                <Img src={tempPhoto} />
-                
+                <Img src={tempPhoto} />    
             </FlexBox>
 
         </FlexContainer>

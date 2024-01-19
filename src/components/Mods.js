@@ -1,15 +1,14 @@
 import React, {useState} from 'react';
-import {Link, NavLink} from 'react-router-dom';
-import { NavBarLink } from 'react-router-dom';
 import styled from 'styled-components';
 import 'font-awesome/css/font-awesome.min.css';
 import apache from '../assets/apache.jpg';
 import armoredBus from '../assets/armored_bus.jpg';
 import meruSniper from '../assets/meru_sniper.jpg';
-import monsterTruck from '../assets/monster_truck.jpg';
 import roamer from '../assets/roamer.jpg';
-import weedHeli from '../assets/weed_heli.jpg';
 import { Carousel } from 'react-responsive-carousel';
+import tissy from '../assets/tissyCropped.png'
+import scifiTrader from '../assets/scifiTrader.png';
+import ufo from '../assets/ufoRide.png';
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 function Mods() {
@@ -59,8 +58,23 @@ function Mods() {
         <CarouselContainer>
             <Carousel showArrows={true}>
                 <div>
+                    <img src={scifiTrader} />
+                    <ImgTitle>Custom traders</ImgTitle> 
+                    <br/>
+                </div>
+                <div>
+                    <img src={tissy} />
+                    <ImgTitle>Vast array of gearsets</ImgTitle>
+                    <br/>
+                </div>
+                <div>
                     <img src={meruSniper} />
                     <ImgTitle>Futuristic Weapon packs</ImgTitle>
+                    <br/>
+                </div>
+                <div>
+                    <img src={ufo} />
+                    <ImgTitle>UFOs</ImgTitle> 
                     <br/>
                 </div>
                 <div>
@@ -76,16 +90,6 @@ function Mods() {
                 <div>
                     <img src={apache} />
                     <ImgTitle>Apache's</ImgTitle> 
-                    <br/>
-                </div>
-                <div>
-                    <img src={weedHeli} />
-                    <ImgTitle>420 Helis</ImgTitle>
-                    <br/>
-                </div>
-                <div>
-                    <img src={monsterTruck} />
-                    <ImgTitle>Monster Trucks</ImgTitle> 
                     <br/>
                 </div>
             </Carousel>
