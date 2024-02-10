@@ -73,20 +73,6 @@ function Donate() {
                         
                     </DonoContainer>
                 </PayLink>
-
-                {/* <PayLink to='https://donatebot.io/checkout/693526731948294214' target='_blank'>
-                    <DonoContainer>
-                            <DonoItems>
-                                <p>Reoccuring Donation</p>
-                            </DonoItems>
-                            <DonoItems>
-                                <div>
-                                <i class="fa-brands fa-discord fa-2xl"></i>
-                                </div>
-                                
-                            </DonoItems>
-                    </DonoContainer>
-                </PayLink> */}
             </FlexBox>
         </FlexContainer>
 
