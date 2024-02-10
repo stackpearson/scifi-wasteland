@@ -5,6 +5,8 @@ import Navigation from './components/Nav';
 import Mods from './components/Mods';
 import Donate from './components/Donate';
 import BlackMarket from './components/BlackMarket';
+import Privacy from './components/Privacy';
+import Tos from './components/Tos';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path='/mods' element={<Mods />}/>
         <Route path='/black-market' element={<BlackMarket />}/>
         <Route path='/donate' element={<Donate />}/>
+        <Route path='/privacy' element={<Privacy />}/>
+        <Route path='/terms-of-service' element={<Tos />}/>
       </Routes>
     </div>
   );
